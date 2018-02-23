@@ -1,0 +1,30 @@
+{
+  "name": "rxjs-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial for RxJS",
+  "main": "index.js",
+  "dependencies": {
+    "@reactivex/rxjs": "^5.5.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.4",
+    "merge2": "^1.2.1",
+    "typescript": "^2.7.1",
+    "@types/es6-shim": "^0.31.35"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiven-wang/rxjs-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiven-wang/rxjs-tutorial/issues"
+  },
+  "homepage": "https://github.com/tiven-wang/rxjs-tutorial#readme"
+}
