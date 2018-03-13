@@ -4,17 +4,23 @@
   "description": "Tutorial for RxJS",
   "main": "index.js",
   "dependencies": {
-    "@reactivex/rxjs": "^5.5.6"
+    "@reactivex/rxjs": "^5.5.6",
+    "request": "^2.83.0",
+    "rxjs": "^5.5.6"
   },
   "devDependencies": {
+    "@types/es6-shim": "^0.31.35",
+    "@types/request": "^2.47.0",
     "gulp": "^3.9.1",
     "gulp-typescript": "^3.2.4",
     "merge2": "^1.2.1",
-    "typescript": "^2.7.1",
-    "@types/es6-shim": "^0.31.35"
+    "nodemon": "^1.17.1",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/queue.ts"
   },
   "repository": {
     "type": "git",
